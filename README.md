@@ -28,7 +28,7 @@ Below is a screenshot of an example configuration:
 ![New Relic WebHook Notification Channel definition](assets/images/webhook_notification_channel.jpg)
 
 ## Usage
-The Agent is an executable JAR file. Run with the command: 'java -jar NRwh2Trap.jar'. Be sure you are pointing to a Java 1.8 or higher JRE/JDK.
+The Agent is an executable JAR file. Run with the command: 'java -jar NRwh2Trap.jar'. Be sure you are running with a Java 1.8 or higher JRE/JDK.
 
 
 ## Building
