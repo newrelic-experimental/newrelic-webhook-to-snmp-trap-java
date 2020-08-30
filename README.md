@@ -17,7 +17,7 @@
   - The Agent name is arbitrary.
   - You can specify multiple Agents for multiple Trap receivers. 
 2. Edit the log4j.properties file to change the logging level or destination. Used logging levels are INFO (default), DEBUG. 
-3. The Agent is an executable JAR file. Run with the command: 'java -jar NRwh2Trap.jar'. Be sure you are pointing to a Java 1.8 or higher JRE/JDK.
+3. The build creates an executable JAR file. Run with the command: 'java -jar target/newrelic-wh2trap-server-1.0.0-SNAPSHOT-jar-with-dependencies.jar'. Be sure you are running with a Java 1.8 or higher JRE/JDK.
 
 4. Create a [New Relic WebHook Alert Notification Channel](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/notification-channels-control-where-send-alerts) to receive Alert notifications to the NRwh2Trap service. The "base Url" value for the WebHook channel should be of the form,
 
