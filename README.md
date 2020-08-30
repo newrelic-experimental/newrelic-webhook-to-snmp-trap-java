@@ -2,11 +2,11 @@
 
 # newrelic-webhook-to-snmp-trap-java
 
->This extension provides a Webhook Alert notification endpoint that converts that Alert into an SNMP Trap V2 format. This is hosted on-premise to allow direct integration to an SNMP Manager sitting behind a firewall. 
+This extension provides a Webhook Alert notification endpoint that converts that Alert into an SNMP Trap V2 format. This is hosted on-premise to allow direct integration to an SNMP Manager sitting behind a firewall. 
 
 ## Installation
 
-> [Download link for extension](https://github.com/ddarwin/newrelic-wh2trap-server.git)
+[Download link for extension](https://github.com/ddarwin/newrelic-wh2trap-server.git)
 
 
 
@@ -21,7 +21,7 @@
 
 4. Create a [New Relic WebHook Alert Notification Channel](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-notifications/notification-channels-control-where-send-alerts) to receive Alert notifications to the NRwh2Trap service. The "base Url" value for the WebHook channel should be of the form,
 
-> http://\<webhook-listener-host\>:\<webhook-listener-port\>/webhook.
+http://\<webhook-listener-host\>:\<webhook-listener-port\>/webhook.
 
 Below is a screenshot of an example configuration: 
 
@@ -33,12 +33,12 @@ Below is a screenshot of an example configuration:
 
 ## Building
 
->This is a Maven package so you can modify the code and build using "mvn install". 
+This is a Maven package so you can modify the code and build using "mvn install". 
 This extension requires a Java 1.8 JRE because it uses Lambda expressions. 
 
 ## Testing
 
->The New Relic WebHook listener must be accessible from the Internet to receive Alerts from New Relic. You can test access using a browser:
+The New Relic WebHook listener must be accessible from the Internet to receive Alerts from New Relic. You can test access using a browser:
 
 - HelloWorld test: from a browser enter the URL, http://\<webhook-listener-host\>:\<webhook-listener-port\>/hello/world
       This should return the message "Hello World"
@@ -52,14 +52,12 @@ If these tests fail then either the webhook listener process is not reachable or
 
 ## Support
 
-New Relic hosts and moderates an online forum where customers can interact with New Relic employees as well as other customers to get help and share best practices. Like all official New Relic open source projects, there's a related Community topic in the New Relic Explorers Hub. You can find this project's topic/threads here:
-
->Add the url for the support thread here
+New Relic hosts and moderates an online forum where customers can interact with New Relic employees as well as other customers to get help and share best practices. Like all official New Relic open source projects, there's a related Community topic in the New Relic Explorers Hub.
 
 ## Contributing
 We encourage your contributions to improve [project name]! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 If you have any questions, or to execute our corporate CLA, required if your contribution is on behalf of a company,  please drop us an email at opensource@newrelic.com.
 
 ## License
-[Project Name] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
->[If applicable: The [project name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
+newrelic-webhook-to-snmp-trap-java is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
+[If applicable: The [project name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
