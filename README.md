@@ -2,7 +2,7 @@
 
 # newrelic-webhook-to-snmp-trap-java
 
-This extension provides a Webhook Alert notification endpoint that converts that Alert into an SNMP Trap V2 format. This is hosted on-premise to allow direct integration to an SNMP Manager sitting behind a firewall. 
+This extension provides a Webhook Alert notification endpoint that converts a New Relic Alert into an SNMP Trap V2 format. This is hosted on-premises to allow direct integration to an SNMP Manager sitting behind a firewall. 
 
 ## Installation
 
