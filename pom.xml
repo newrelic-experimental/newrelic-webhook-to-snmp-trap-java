@@ -82,6 +82,22 @@
 				</execution>
 			</executions>
 		</plugin>
+		<plugin>
+			<groupId>com.github.jinnovations</groupId>
+			<artifactId>attribution-maven-plugin</artifactId>
+			<version>0.9.8</version>
+			<executions>
+				<execution>
+					<goals>
+						<goal>generate-attribution-file</goal>
+					</goals>
+					<phase>generate-resources</phase>
+				</execution>
+			</executions>
+			<configuration>
+				<outputFile>attribution.xml</outputFile>
+			</configuration>
+		</plugin>
   	</plugins>
   </build>
 </project>

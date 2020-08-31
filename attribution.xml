@@ -1,0 +1,467 @@
+<attributionReport>
+   <dependencies>
+      <dependency>
+         <name>Apache Log4j</name>
+         <groupId>log4j</groupId>
+         <artifactId>log4j</artifactId>
+         <version>1.2.17</version>
+         <projectUrl>http://logging.apache.org/log4j/1.2/</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>The Apache Software License, Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>config</name>
+         <groupId>com.typesafe</groupId>
+         <artifactId>config</artifactId>
+         <version>1.3.3</version>
+         <projectUrl>https://github.com/lightbend/config</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache License, Version 2.0</name>
+               <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Hamcrest Core</name>
+         <groupId>org.hamcrest</groupId>
+         <artifactId>hamcrest-core</artifactId>
+         <version>1.1</version>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>BSD style</name>
+               <url>http://www.opensource.org/licenses/bsd-license.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Java Servlet API</name>
+         <groupId>javax.servlet</groupId>
+         <artifactId>javax.servlet-api</artifactId>
+         <version>3.1.0</version>
+         <projectUrl>http://servlet-spec.java.net</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>CDDL + GPLv2 with classpath exception</name>
+               <url>https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Asynchronous HTTP Client</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-client</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-client/9.4.8.v20171121/jetty-client-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Http Utility</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-http</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.4.8.v20171121/jetty-http-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: IO Utility</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-io</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.4.8.v20171121/jetty-io-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Security</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-security</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.4.8.v20171121/jetty-security-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Server Core</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-server</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.4.8.v20171121/jetty-server-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Servlet Handling</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-servlet</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.4.8.v20171121/jetty-servlet-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Utilities</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-util</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.4.8.v20171121/jetty-util-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Webapp Application Support</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-webapp</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.4.8.v20171121/jetty-webapp-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Websocket :: API</name>
+         <groupId>org.eclipse.jetty.websocket</groupId>
+         <artifactId>websocket-api</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty/websocket-api</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.8.v20171121/websocket-api-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Websocket :: Client</name>
+         <groupId>org.eclipse.jetty.websocket</groupId>
+         <artifactId>websocket-client</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty/websocket-client</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.8.v20171121/websocket-client-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Websocket :: Common</name>
+         <groupId>org.eclipse.jetty.websocket</groupId>
+         <artifactId>websocket-common</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty/websocket-common</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.8.v20171121/websocket-common-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Websocket :: Server</name>
+         <groupId>org.eclipse.jetty.websocket</groupId>
+         <artifactId>websocket-server</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty/websocket-server</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.4.8.v20171121/websocket-server-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: Websocket :: Servlet Interface</name>
+         <groupId>org.eclipse.jetty.websocket</groupId>
+         <artifactId>websocket-servlet</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty/websocket-servlet</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.4.8.v20171121/websocket-servlet-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Jetty :: XML utilities</name>
+         <groupId>org.eclipse.jetty</groupId>
+         <artifactId>jetty-xml</artifactId>
+         <version>9.4.8.v20171121</version>
+         <projectUrl>http://www.eclipse.org/jetty</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Apache Software License - Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            </license>
+            <license>
+               <name>Eclipse Public License - Version 1.0</name>
+               <url>http://www.eclipse.org/org/documents/epl-v10.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.4.8.v20171121/jetty-xml-9.4.8.v20171121.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>JSON.simple</name>
+         <groupId>com.googlecode.json-simple</groupId>
+         <artifactId>json-simple</artifactId>
+         <version>1.1.1</version>
+         <projectUrl>http://code.google.com/p/json-simple/</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>The Apache Software License, Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>JUnit</name>
+         <groupId>junit</groupId>
+         <artifactId>junit</artifactId>
+         <version>4.10</version>
+         <projectUrl>http://junit.org</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>Common Public License Version 1.0</name>
+               <url>http://www.opensource.org/licenses/cpl1.0.txt</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>SLF4J API Module</name>
+         <groupId>org.slf4j</groupId>
+         <artifactId>slf4j-api</artifactId>
+         <version>1.7.13</version>
+         <projectUrl>http://www.slf4j.org</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>MIT License</name>
+               <url>http://www.opensource.org/licenses/mit-license.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>SLF4J Simple Binding</name>
+         <groupId>org.slf4j</groupId>
+         <artifactId>slf4j-simple</artifactId>
+         <version>1.7.21</version>
+         <projectUrl>http://www.slf4j.org</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>MIT License</name>
+               <url>http://www.opensource.org/licenses/mit-license.php</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/slf4j/slf4j-simple/1.7.21/slf4j-simple-1.7.21.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>SNMP4J</name>
+         <groupId>org.snmp4j</groupId>
+         <artifactId>snmp4j</artifactId>
+         <version>1.10.1</version>
+         <projectUrl>http://www.snmp4j.org</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>The Apache Software License, Version 2.0</name>
+               <url>http://www.snmp4j.org/LICENSE-2_0.txt</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/org/snmp4j/snmp4j/1.10.1/snmp4j-1.10.1.jar</string>
+         </downloadUrls>
+      </dependency>
+      <dependency>
+         <name>Spark</name>
+         <groupId>com.sparkjava</groupId>
+         <artifactId>spark-core</artifactId>
+         <version>2.7.2</version>
+         <projectUrl>http://www.sparkjava.com</projectUrl>
+         <type>jar</type>
+         <licenses>
+            <license>
+               <name>The Apache Software License, Version 2.0</name>
+               <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            </license>
+         </licenses>
+         <downloadUrls>
+            <string>https://repo.maven.apache.org/maven2/com/sparkjava/spark-core/2.7.2/spark-core-2.7.2.jar</string>
+         </downloadUrls>
+      </dependency>
+   </dependencies>
+</attributionReport>
