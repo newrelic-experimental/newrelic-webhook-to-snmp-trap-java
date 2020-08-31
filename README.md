@@ -6,7 +6,7 @@ This extension provides a Webhook Alert notification endpoint that converts a Ne
 
 ## Installation
 
-[Download link for extension](https://github.com/ddarwin/newrelic-wh2trap-server.git)
+[Download link for extension](https://github.com/newrelic-experimental/newrelic-webhook-to-snmp-trap-java.git)
 
 
 
