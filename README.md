@@ -6,9 +6,9 @@ This extension provides a Webhook Alert notification endpoint that converts a Ne
 
 ## Installation
 
-[Download link for extension](https://github.com/newrelic-experimental/newrelic-webhook-to-snmp-trap-java.git)
+Clone or download the [repository](https://github.com/newrelic-experimental/newrelic-webhook-to-snmp-trap-java.git). There is an executable JAR file included with the repo that you can run using the command:
 
-
+```java -jar target/newrelic-wh2trap-server-1.0.0-SNAPSHOT-jar-with-dependencies.jar```
 
 ## Getting Started
 1. Edit the config/Application.json to configure the Agent to connect to an SNMP Manager.
@@ -34,7 +34,7 @@ The Agent is an executable JAR file. Run with the command: 'java -jar target/new
 ## Building
 
 This is a Maven package so you can modify the code and build using "mvn install". 
-This extension requires a Java 1.8 JRE because it uses Lambda expressions. 
+This extension requires a Java 1.8+ JRE because it uses Lambda expressions. 
 
 ## Testing
 
